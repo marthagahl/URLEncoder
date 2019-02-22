@@ -70,10 +70,7 @@ namespace URLEncoder
 
                 if (input.Contains(element))
                 {
-                    Console.WriteLine(element);
                     input = input.Replace(element, replacement[index]);
-                    Console.WriteLine(replacement[index]);
-                    Console.WriteLine(input);
                 }
             }
             return String.Format(input);
